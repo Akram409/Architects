@@ -1,24 +1,44 @@
-/* Global */
 /* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@500&family=Kanit&family=Passion+One:wght@400;700&family=Poppins:wght@500&family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
+/* ---------------------------------------------------------------- */
 
+/* Global */
 *{
-    box-sizing: border-box;
+    box-sizing: border-zbox;
     margin: 0;
     padding: 0;
 }
 
-
-
 :root{
-    --background: #FFFFFF;
-    --black: #3A3A3A;
+    --background: rgba(255, 144, 14, 0.1);;
+    --black1: #131313;
+    --black2: #424242;
     --hot-pink: #E02C6D;
     --font-family: 'Poppins', sans-serif;
     --dark-blue: #0A0826;
     --try: 1px solid red;
     --white: white;
-    --yellow: #FB8200;
+    --yellow: #FF900E    ;
     --gray: #6C6C6C;
 }
+
+/* ---------------------------------------------------------------- */
+/* ----------------------
+   Common-Class - Start
+------------------------*/
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* ----------------------
+   Common-Class - End
+------------------------*/
+
+/* ---------------------------------------------------------------- */
+
+/* ----------------------
+   Nav - Bar - Start
+------------------------*/
+
