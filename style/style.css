@@ -46,6 +46,11 @@ body{
     border: 0;
 }
 
+.primary-btn:hover{ 
+    background-color: aqua;
+    color: black;
+}
+
 .primary-width{
     width: 100%;
     max-width: 1200px;
@@ -191,7 +196,6 @@ body{
 .features-details{
     position: relative;
     margin-top: 8rem;
-    border: var(--try);
     display: flex;
     justify-content: flex-end;
     height: 50rem;
@@ -323,7 +327,7 @@ body{
     align-items: center;
     border: 1px solid #FF900E;
     border-radius: 8px;
-    /* transform: rotate(90deg); */
+    transition: transform 1.5s;
 }
 .av-info{
     text-align: center;
@@ -349,6 +353,12 @@ body{
     color: var(--black3);
 }
 
+.av-data:hover{
+    transform: rotate(360deg);
+    background-color: cyan;
+    color: white;
+    border:2px solid black ;
+}
 
 /* ----------------------
    achievement - end
@@ -497,3 +507,115 @@ footert{
 }
 
 /* footer section End*/
+
+
+/* Media query */
+
+/* Mobile-Device */
+@media only screen and (max-width:480px) {
+    .nav-box{
+        flex-direction: column;
+    }
+    .nav-head{
+        margin-top: 20px;
+    }
+    .nav-menu ul {
+        gap: 25px;
+    }
+
+    .banner{
+        padding: 4rem 0;
+    }
+    .banner-info {
+        padding: 0px 0px;
+    }
+    .nav_or_banner {
+        height: 110vh;
+    }
+    .features-image-box , .ftd_all_info {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .features {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .features-image-box {
+        gap: 15px;
+    }
+    .features-info-box{
+        width: 70%;
+        padding-left: 0;
+        margin-top: 15px;
+    }
+    .features-details {
+ 
+        flex-direction: column-reverse;
+    }
+    .ftd-img , .ftd-text-container{
+        width: 100%;
+    }
+    .ftd-text-container{
+        margin-top: 30px;
+    }
+    .ftd_all_info {
+        margin-left: 0;
+        width: 100%;
+    }
+    .ftd-text{
+        padding-left: 10px;
+    }
+    .test {
+        width: 75%;
+        height: 100px;
+        left: 70%;
+        top: -195%;
+    }
+    .ten_year_main {
+        padding-top: 20px;
+        font-size: 30px;
+    }
+    .some-fact{
+        margin-top: 560px;
+        margin-left: 10px;
+    }
+    .achievement {
+        margin-top: 50px;
+    }
+    .av-box {
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sponser {
+        margin-top: 70px;
+    }
+    .spi-container {
+        gap: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cp-info{
+        text-align: center;
+    }
+    .footer-part{
+        flex-direction: column;
+    }
+    .footer-info {
+        text-align: center;
+        padding-top: 100px;
+        padding-bottom: 0;
+        padding-left: 30px;
+        padding-right: 120px;
+    }
+    .footer-form {
+        padding-top: 0;
+        text-align: center;
+        padding-right: 120px;
+        padding-left: 40px;
+    }
+    /* .features , .features-details , .ten_year , .some-fact , .achievement , .sponser , .sponser-image , .copyright , footer{
+        display: none;
+    } */
+}
