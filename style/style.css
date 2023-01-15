@@ -603,19 +603,16 @@ footert{
         flex-direction: column;
     }
     .footer-info {
+        width: 100%;
         text-align: center;
         padding-top: 100px;
         padding-bottom: 0;
-        padding-left: 30px;
-        padding-right: 120px;
+        padding-left: 0;
+        padding-right: 0;
     }
     .footer-form {
         padding-top: 0;
+        width: 85%;
         text-align: center;
-        padding-right: 120px;
-        padding-left: 40px;
     }
-    /* .features , .features-details , .ten_year , .some-fact , .achievement , .sponser , .sponser-image , .copyright , footer{
-        display: none;
-    } */
 }
