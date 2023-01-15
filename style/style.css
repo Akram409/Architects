@@ -1,7 +1,7 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
-/* ---------------------------------------------------------------- */
+/*----------------------------------------------------*/
 
 /* Global */
 *{
@@ -14,6 +14,7 @@
     --background: rgba(255, 144, 14, 0.1);;
     --black1: #131313;
     --black2: #424242;
+    --black3:  #727272;;
     --hot-pink: #E02C6D;
     --font-family: 'Poppins', sans-serif;
     --dark-blue: #0A0826;
@@ -23,22 +24,476 @@
     --gray: #6C6C6C;
 }
 
-/* ---------------------------------------------------------------- */
+/*----------------------------------------------------*/
+
 /* ----------------------
    Common-Class - Start
 ------------------------*/
 
 body{
     font-family: 'Work Sans', sans-serif;
+    
 }
 
+.primary-btn{
+    width: 180px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 17px;
+    background-color: var(--yellow);
+    color: var(--white);
+    border-radius: 8px;
+    border: 0;
+}
+
+.primary-width{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.primary-size{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--black3);
+}
 /* ----------------------
    Common-Class - End
 ------------------------*/
 
-/* ---------------------------------------------------------------- */
+/* ----------------------------------------------------*/
 
 /* ----------------------
    Nav - Bar - Start
 ------------------------*/
+.nav_or_banner{
+    width: 100%;
+    background-color: var(--background);
+    height: 185vh;
+    margin-bottom: 80px;
+}
 
+.nav-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.nav-heading{
+    font-weight: 700;
+    font-size: 30px;
+    color: var(--black1);
+    padding-left: 10px;
+}
+
+.nav-menu{
+    padding-right: 10px;
+}
+.nav-menu ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-menu-item{
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--black2);
+}
+
+/* ----------------------
+   Nav - Bar - End
+------------------------*/
+
+/*----------------------------------------------------*/
+
+/* ----------------------
+   Banner - Start
+------------------------*/
+.banner{
+    padding: 6rem 0;
+    text-align: center;
+    height: 125vh;
+}
+
+.banner-heading{
+    font-weight: 700;
+    font-size: 50px;
+    color: var(--black1);
+    margin-bottom: 20px;
+}
+
+.banner-info{
+    padding: 0 170px;
+    margin-bottom: 32px;
+}
+
+.banner-img-box{
+    margin-top: 50px;
+}
+/* ----------------------
+   Banner - End
+------------------------*/
+
+/*----------------------------------------------------*/
+
+/* ----------------------
+   features - Start
+------------------------*/
+
+.features{
+    display: flex;
+    align-items: center;
+}
+
+.features-image-box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.ft-img{
+    width: 320px;
+    height: 320px;
+    border-radius: 8px;
+}
+.features-info-box{
+    padding-left: 32px;
+    width: 50%;
+    height: 100%;
+}
+
+.ft-heading{
+    margin-bottom: 24px;
+}
+.ft-head-word-1{
+    color: var(--black3);
+}
+.ft-head-word-2{
+    color: var(--black1);
+}
+.ft-head-word-3{
+    color: var(--yellow);
+}
+
+.ft-info{
+    margin-bottom: 32px;
+}
+/* ----------------------
+   features - End
+------------------------*/
+
+/*----------------------------------------------------*/
+
+/* ----------------------
+   features-details - Start
+------------------------*/
+.features-details{
+    position: relative;
+    margin-top: 8rem;
+    border: var(--try);
+    display: flex;
+    justify-content: flex-end;
+    height: 50rem;
+}
+.ftd-text-container{
+    width: 56%;
+    padding-right: 50px;
+}
+
+.ftd-head-info{
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+.line_main{
+    display: flex;
+    gap: 15px;
+}
+.line{
+    width: 5px;
+    height: 106px;
+    background-color: var(--yellow);
+}
+.ftd-text-main{
+    margin-top: 24px;
+    margin-left: 15px;
+}
+.ftd-heading-main{
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--black1);
+}
+
+.ftd_all_info{
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    margin-left: 15px;
+    width: 100%;
+    height: 71%;
+}
+.ftd-text{
+    padding-top: 30px;
+    padding-left: 33px;
+    box-shadow: 0px 4px 30px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    background-blend-mode: overlay;
+}
+.ftd-heading{
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.ftd-img{
+    width: 50%;
+    height: 100%;
+}
+.ftd-img > img{
+    width: 100%;
+    height: 100%;
+}
+/* ----------------------
+   features-details - End
+------------------------*/
+
+/*----------------------------------------------------*/
+
+/* ----------------------
+   10-year-btn - Start
+------------------------*/
+.ten_year {
+    position: relative;
+    width: 210px;
+    height: 120px;
+}
+.test{
+    position: absolute;
+    width: 260px;
+    height: 140px;
+    background: var(--yellow);
+    border-radius: 8px;
+    text-align: center;
+    left: 62%;
+    top: -75%;
+}
+
+.ten_year_main{
+    padding-top: 30px;
+    color: white;
+    font-weight: 700;
+    font-size: 45px;
+}
+.ten_year_second{
+    color: white;
+}
+/* ----------------------
+   10-year-btn - End
+------------------------*/
+
+/* ----------------------
+   some-fact - Start
+------------------------*/
+.sf-heading{
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--black1);
+    padding-bottom: 24px;
+}
+/* ----------------------
+   some-fact - End
+------------------------*/
+
+/* ----------------------
+   achievement - Start
+------------------------*/
+.achievement{
+    margin-top: 100px;
+}
+
+.av-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.av-data{
+    width: 245px;
+    height: 215px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    /* transform: rotate(90deg); */
+}
+.av-info{
+    text-align: center;
+}
+
+.image{
+    margin-bottom: 10px;
+}
+.image img{
+    width: 50px;
+    height: 50px;
+}
+
+.av-head{
+    font-weight: 600;
+    font-size: 45px;
+    color: var(--black2);
+    padding-bottom: 5px;
+}
+.av-second{
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--black3);
+}
+
+
+/* ----------------------
+   achievement - end
+------------------------*/
+
+
+/* ----------------------
+   sponser  Start
+------------------------*/
+.sponser{
+    margin-top: 180px;
+}
+
+.sp-info{
+    text-align: center;
+}
+.sp-head{
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--black2);
+    padding-bottom: 24px;
+}
+/* ----------------------
+   sponser  End
+------------------------*/
+
+/* ----------------------
+   sponser-image  start
+------------------------*/
+.sponser-image{
+    margin-top: 50px;
+}
+
+.spi-container{
+    display: flex;
+    justify-content: space-between;
+}
+/* ----------------------
+   sponser-image  End
+------------------------*/
+
+
+/* ----------------------
+   Copyright  start
+------------------------*/
+
+.copyright{
+    margin-top: 130px;
+    background-color: var(--background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.cp-text{
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--black2);
+}
+/* ----------------------
+   Copyright  End
+------------------------*/
+
+-----------------------------------
+footert{
+    margin-top: 150px;
+}
+
+.footer-info{
+    color: #F8F8F8;
+   padding-top: 130px;
+   padding-bottom: 130px;
+   padding-left: 121px;
+   padding-right: 200px;
+}
+
+.footer-heading{
+    font-weight: 700;
+    font-size: 45px;
+
+}
+.footer-description{
+    font-weight: 400;
+    padding-top:16px;
+    padding-bottom: 20px;
+}
+
+.footer-small-heading1{
+    padding-bottom: 16px;
+    font-weight: 400;
+
+}
+.footer-small-heading2{
+    padding-bottom: 32px;
+    font-weight: 400;
+}
+.footer-icon .icon1{
+    padding-right: 17px;
+} 
+.footer-icon .icon2{
+    padding-right: 17px;
+}  
+
+.footer-form{
+    padding-top: 90px;
+    padding-right: 300px;
+    padding-left: 25px;
+    
+}
+
+.details-form{
+    margin-top: 45px;
+}
+.form-heading{
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.footer-form input{
+    width: 260px;
+    height: 50px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    background-color: #151414;
+    color: white;
+    padding-left: 15px;
+}
+
+.footer-btn{
+    margin-top: 15px;
+    background-color: #F15B22;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 7px;
+    border: 0;
+    color: white;
+    width: 130px;
+    height: 55px;
+}
+.footer-btn:hover{ 
+    background-color: aqua;
+    color: black;
+}
+
+/* footer section End*/

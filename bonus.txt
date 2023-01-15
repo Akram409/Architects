@@ -1,0 +1,6 @@
+Bonus-Mark :- mobile and tablet responsive + last one new section +  10+ year button add + 
+
+responsive:- 
+	*menu one by one
+	*quick list pic one by one then text
+	*achivement hover effect
