@@ -4,23 +4,25 @@
 /*----------------------------------------------------*/
 
 /* Global */
-*{
+* {
     box-sizing: border-zbox;
     margin: 0;
     padding: 0;
 }
 
-:root{
-    --background: rgba(255, 144, 14, 0.1);;
+:root {
+    --background: rgba(255, 144, 14, 0.1);
+    ;
     --black1: #131313;
     --black2: #424242;
-    --black3:  #727272;;
+    --black3: #727272;
+    ;
     --hot-pink: #E02C6D;
     --font-family: 'Poppins', sans-serif;
     --dark-blue: #0A0826;
     --try: 1px solid red;
     --white: white;
-    --yellow: #FF900E    ;
+    --yellow: #FF900E;
     --gray: #6C6C6C;
 }
 
@@ -30,12 +32,12 @@
    Common-Class - Start
 ------------------------*/
 
-body{
+body {
     font-family: 'Work Sans', sans-serif;
-    
+
 }
 
-.primary-btn{
+.primary-btn {
     width: 180px;
     height: 64px;
     font-weight: 600;
@@ -46,22 +48,23 @@ body{
     border: 0;
 }
 
-.primary-btn:hover{ 
+.primary-btn:hover {
     background-color: aqua;
     color: black;
 }
 
-.primary-width{
+.primary-width {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.primary-size{
+.primary-size {
     font-weight: 400;
     font-size: 16px;
     color: var(--black3);
 }
+
 /* ----------------------
    Common-Class - End
 ------------------------*/
@@ -71,37 +74,38 @@ body{
 /* ----------------------
    Nav - Bar - Start
 ------------------------*/
-.nav_or_banner{
+.nav_or_banner {
     width: 100%;
     background-color: var(--background);
     height: 185vh;
     margin-bottom: 80px;
 }
 
-.nav-box{
+.nav-box {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100px;
 }
 
-.nav-heading{
+.nav-heading {
     font-weight: 700;
     font-size: 30px;
     color: var(--black1);
     padding-left: 10px;
 }
 
-.nav-menu{
+.nav-menu {
     padding-right: 10px;
 }
-.nav-menu ul{
+
+.nav-menu ul {
     display: flex;
     list-style: none;
     gap: 20px;
 }
 
-.nav-menu-item{
+.nav-menu-item {
     font-weight: 500;
     font-size: 18px;
     color: var(--black2);
@@ -116,27 +120,28 @@ body{
 /* ----------------------
    Banner - Start
 ------------------------*/
-.banner{
+.banner {
     padding: 6rem 0;
     text-align: center;
     height: 125vh;
 }
 
-.banner-heading{
+.banner-heading {
     font-weight: 700;
     font-size: 50px;
     color: var(--black1);
     margin-bottom: 20px;
 }
 
-.banner-info{
+.banner-info {
     padding: 0 170px;
     margin-bottom: 32px;
 }
 
-.banner-img-box{
+.banner-img-box {
     margin-top: 50px;
 }
+
 /* ----------------------
    Banner - End
 ------------------------*/
@@ -147,43 +152,49 @@ body{
    features - Start
 ------------------------*/
 
-.features{
+.features {
     display: flex;
     align-items: center;
 }
 
-.features-image-box{
+.features-image-box {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
 }
-.ft-img{
+
+.ft-img {
     width: 320px;
     height: 320px;
     border-radius: 8px;
 }
-.features-info-box{
+
+.features-info-box {
     padding-left: 32px;
     width: 50%;
     height: 100%;
 }
 
-.ft-heading{
+.ft-heading {
     margin-bottom: 24px;
 }
-.ft-head-word-1{
+
+.ft-head-word-1 {
     color: var(--black3);
 }
-.ft-head-word-2{
+
+.ft-head-word-2 {
     color: var(--black1);
 }
-.ft-head-word-3{
+
+.ft-head-word-3 {
     color: var(--yellow);
 }
 
-.ft-info{
+.ft-info {
     margin-bottom: 32px;
 }
+
 /* ----------------------
    features - End
 ------------------------*/
@@ -193,69 +204,78 @@ body{
 /* ----------------------
    features-details - Start
 ------------------------*/
-.features-details{
+.features-details {
     position: relative;
     margin-top: 8rem;
     display: flex;
     justify-content: flex-end;
     height: 50rem;
 }
-.ftd-text-container{
+
+.ftd-text-container {
     width: 56%;
-    padding-right: 50px;
+    padding-right: 0;
 }
 
-.ftd-head-info{
+.ftd-head-info {
     margin-top: 10px;
     margin-bottom: 35px;
 }
-.line_main{
+
+.line_main {
     display: flex;
     gap: 15px;
 }
-.line{
+
+.line {
     width: 5px;
     height: 106px;
     background-color: var(--yellow);
 }
-.ftd-text-main{
+
+.ftd-text-main {
     margin-top: 24px;
     margin-left: 15px;
 }
-.ftd-heading-main{
+
+.ftd-heading-main {
     font-weight: 700;
     font-size: 45px;
     color: var(--black1);
 }
 
-.ftd_all_info{
+.ftd_all_info {
     display: grid;
-    grid-template-rows: repeat(4,1fr);
+    grid-template-rows: repeat(4, 1fr);
     margin-left: 15px;
     width: 100%;
     height: 71%;
 }
-.ftd-text{
+
+.ftd-text {
     padding-top: 30px;
     padding-left: 33px;
     box-shadow: 0px 4px 30px rgb(0 0 0 / 10%);
     border-radius: 8px;
     background-blend-mode: overlay;
 }
-.ftd-heading{
+
+.ftd-heading {
     padding-bottom: 10px;
     font-weight: 600;
     font-size: 20px;
 }
 
-.ftd-img{
+.ftd-img {
     width: 50%;
     height: 100%;
 }
-.ftd-img > img{
+
+.ftd-img>img {
     width: 100%;
     height: 100%;
 }
+
 /* ----------------------
    features-details - End
 ------------------------*/
@@ -265,15 +285,17 @@ body{
 /* ----------------------
    10-year-btn - Start
 ------------------------*/
-.ten_year_rs{
+.ten_year_rs {
     display: none;
 }
+
 .ten_year {
     position: relative;
     width: 210px;
     height: 120px;
 }
-.test{
+
+.test {
     position: absolute;
     width: 260px;
     height: 140px;
@@ -284,15 +306,17 @@ body{
     top: -75%;
 }
 
-.ten_year_main{
+.ten_year_main {
     padding-top: 30px;
     color: white;
     font-weight: 700;
     font-size: 45px;
 }
-.ten_year_second{
+
+.ten_year_second {
     color: white;
 }
+
 /* ----------------------
    10-year-btn - End
 ------------------------*/
@@ -300,12 +324,13 @@ body{
 /* ----------------------
    some-fact - Start
 ------------------------*/
-.sf-heading{
+.sf-heading {
     font-weight: 700;
     font-size: 45px;
     color: var(--black1);
     padding-bottom: 24px;
 }
+
 /* ----------------------
    some-fact - End
 ------------------------*/
@@ -313,16 +338,16 @@ body{
 /* ----------------------
    achievement - Start
 ------------------------*/
-.achievement{
+.achievement {
     margin-top: 100px;
 }
 
-.av-box{
+.av-box {
     display: flex;
     justify-content: space-between;
 }
 
-.av-data{
+.av-data {
     width: 245px;
     height: 215px;
     display: flex;
@@ -332,35 +357,38 @@ body{
     border-radius: 8px;
     transition: transform 1.5s;
 }
-.av-info{
+
+.av-info {
     text-align: center;
 }
 
-.image{
+.image {
     margin-bottom: 10px;
 }
-.image img{
+
+.image img {
     width: 50px;
     height: 50px;
 }
 
-.av-head{
+.av-head {
     font-weight: 600;
     font-size: 45px;
     color: var(--black2);
     padding-bottom: 5px;
 }
-.av-second{
+
+.av-second {
     font-weight: 600;
     font-size: 20px;
     color: var(--black3);
 }
 
-.av-data:hover{
+.av-data:hover {
     transform: rotate(360deg);
     background-color: cyan;
     color: white;
-    border:2px solid black ;
+    border: 2px solid black;
 }
 
 /* ----------------------
@@ -371,19 +399,21 @@ body{
 /* ----------------------
    sponser  Start
 ------------------------*/
-.sponser{
+.sponser {
     margin-top: 180px;
 }
 
-.sp-info{
+.sp-info {
     text-align: center;
 }
-.sp-head{
+
+.sp-head {
     font-weight: 700;
     font-size: 45px;
     color: var(--black2);
     padding-bottom: 24px;
 }
+
 /* ----------------------
    sponser  End
 ------------------------*/
@@ -391,14 +421,15 @@ body{
 /* ----------------------
    sponser-image  start
 ------------------------*/
-.sponser-image{
+.sponser-image {
     margin-top: 50px;
 }
 
-.spi-container{
+.spi-container {
     display: flex;
     justify-content: space-between;
 }
+
 /* ----------------------
    sponser-image  End
 ------------------------*/
@@ -408,7 +439,7 @@ body{
    Copyright  start
 ------------------------*/
 
-.copyright{
+.copyright {
     margin-top: 130px;
     background-color: var(--background);
     display: flex;
@@ -417,73 +448,81 @@ body{
     height: 100px;
 }
 
-.cp-text{
+.cp-text {
     font-weight: 400;
     font-size: 20px;
     color: var(--black2);
 }
+
 /* ----------------------
    Copyright  End
 ------------------------*/
 
------------------------------------
-footert{
+/* -----------------------
+    footer section Start 
+-------------------------*/
+footer {
     margin-top: 150px;
 }
 
-.footer-info{
+.footer-info {
     color: #F8F8F8;
-   padding-top: 130px;
-   padding-bottom: 130px;
-   padding-left: 121px;
-   padding-right: 200px;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    padding-left: 121px;
+    padding-right: 200px;
 }
 
-.footer-heading{
+.footer-heading {
     font-weight: 700;
     font-size: 45px;
 
 }
-.footer-description{
+
+.footer-description {
     font-weight: 400;
-    padding-top:16px;
+    padding-top: 16px;
     padding-bottom: 20px;
 }
 
-.footer-small-heading1{
+.footer-small-heading1 {
     padding-bottom: 16px;
     font-weight: 400;
 
 }
-.footer-small-heading2{
+
+.footer-small-heading2 {
     padding-bottom: 32px;
     font-weight: 400;
 }
-.footer-icon .icon1{
-    padding-right: 17px;
-} 
-.footer-icon .icon2{
-    padding-right: 17px;
-}  
 
-.footer-form{
+.footer-icon .icon1 {
+    padding-right: 17px;
+}
+
+.footer-icon .icon2 {
+    padding-right: 17px;
+}
+
+.footer-form {
     padding-top: 90px;
     padding-right: 300px;
     padding-left: 25px;
-    
+
 }
 
-.details-form{
+.details-form {
     margin-top: 45px;
 }
-.form-heading{
+
+.form-heading {
     color: white;
     font-weight: 600;
     font-size: 25px;
     padding-bottom: 20px;
 }
 
-.footer-form input{
+.footer-form input {
     width: 260px;
     height: 50px;
     border: 1px solid #FFFFFF;
@@ -493,7 +532,7 @@ footert{
     padding-left: 15px;
 }
 
-.footer-btn{
+.footer-btn {
     margin-top: 15px;
     background-color: #F15B22;
     font-weight: 600;
@@ -504,81 +543,102 @@ footert{
     width: 130px;
     height: 55px;
 }
-.footer-btn:hover{ 
+
+.footer-btn:hover {
     background-color: aqua;
     color: black;
 }
 
-/* footer section End*/
+/* --------------------
+    footer section End 
+---------------------*/
 
 
-/* Media query */
+/* --------------------
+    Media query 
+---------------------*/
 
 /* Mobile-Device */
 @media only screen and (max-width:480px) {
-    .nav-box{
+    .nav-box {
         flex-direction: column;
     }
-    .nav-head{
+
+    .nav-head {
         margin-top: 20px;
     }
+
     .nav-menu ul {
         gap: 25px;
     }
 
-    .banner{
+    .banner {
         padding: 4rem 0;
     }
+
     .banner-info {
         padding: 0px 0px;
     }
+
     .nav_or_banner {
         height: 150vh;
     }
-    
-    .features-image-box , .ftd_all_info {
-        grid-template-columns: repeat(1,1fr);
+
+    .features-image-box,
+    .ftd_all_info {
+        grid-template-columns: repeat(1, 1fr);
     }
+
     .features {
         align-items: center;
         justify-content: center;
         flex-direction: column;
     }
+
     .features-image-box {
         gap: 15px;
     }
-    .features-info-box{
+
+    .features-info-box {
         width: 70%;
         padding-left: 0;
         margin-top: 15px;
     }
+
     .features-details {
- 
+
         flex-direction: column-reverse;
     }
-    .ftd-img , .ftd-text-container{
+
+    .ftd-img,
+    .ftd-text-container {
         width: 100%;
     }
-    .ftd-text-container{
+
+    .ftd-text-container {
         margin-top: 30px;
         padding-right: 0px;
     }
+
     .ftd_all_info {
         margin-left: 0;
         width: 100%;
     }
-    .ftd-text{
+
+    .ftd-text {
         padding-left: 10px;
     }
 
-    .ten_year{
+    .ten_year {
         display: none;
     }
-    #ten_year_rs{
+
+    #ten_year_rs {
         display: initial;
         display: flex;
         justify-content: center;
     }
+
     #test1 {
         width: 50%;
         height: 100px;
@@ -586,19 +646,22 @@ footert{
         border-radius: 8px;
         text-align: center;
     }
+
     .ten_year_main {
         padding-top: 20px;
         font-size: 30px;
     }
 
-    .some-fact{
+    .some-fact {
         margin-top: 800px;
         margin-right: 0px;
         margin-left: 0px;
     }
+
     .achievement {
         margin-top: 60px;
     }
+
     .av-box {
         gap: 20px;
         flex-direction: column;
@@ -608,18 +671,22 @@ footert{
     .sponser {
         margin-top: 70px;
     }
+
     .spi-container {
         gap: 50px;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .cp-info{
+
+    .cp-info {
         text-align: center;
     }
-    .footer-part{
+
+    .footer-part {
         flex-direction: column;
     }
+
     .footer-info {
         width: 100%;
         text-align: center;
@@ -628,12 +695,12 @@ footert{
         padding-left: 0;
         padding-right: 0;
     }
+
     .footer-form {
         padding-top: 0;
         padding-right: 0px;
         width: 85%;
         text-align: center;
     }
-    
-    /* .features , .features-details , .ten_year , */
-} 
+
+}
