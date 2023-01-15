@@ -632,6 +632,10 @@ footer {
     .ten_year {
         display: none;
     }
+    .ten_year_rs{
+        display: flex;
+        justify-content: center;  margin-top: 15px;
+    }
     #test1 {
         width: 50%;
         height: 100px;
