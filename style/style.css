@@ -265,6 +265,9 @@ body{
 /* ----------------------
    10-year-btn - Start
 ------------------------*/
+.ten_year_rs{
+    display: none;
+}
 .ten_year {
     position: relative;
     width: 210px;
@@ -530,8 +533,9 @@ footert{
         padding: 0px 0px;
     }
     .nav_or_banner {
-        height: 110vh;
+        height: 150vh;
     }
+    
     .features-image-box , .ftd_all_info {
         grid-template-columns: repeat(1,1fr);
     }
@@ -557,6 +561,7 @@ footert{
     }
     .ftd-text-container{
         margin-top: 30px;
+        padding-right: 0px;
     }
     .ftd_all_info {
         margin-left: 0;
@@ -565,28 +570,41 @@ footert{
     .ftd-text{
         padding-left: 10px;
     }
-    .test {
-        width: 75%;
+
+    .ten_year{
+        display: none;
+    }
+    #ten_year_rs{
+        display: initial;
+        display: flex;
+        justify-content: center;
+    }
+    #test1 {
+        width: 50%;
         height: 100px;
-        left: 70%;
-        top: -195%;
+        background: var(--yellow);
+        border-radius: 8px;
+        text-align: center;
     }
     .ten_year_main {
         padding-top: 20px;
         font-size: 30px;
     }
+
     .some-fact{
-        margin-top: 560px;
-        margin-left: 10px;
+        margin-top: 800px;
+        margin-right: 0px;
+        margin-left: 0px;
     }
     .achievement {
-        margin-top: 50px;
+        margin-top: 60px;
     }
     .av-box {
         gap: 20px;
         flex-direction: column;
         align-items: center;
     }
+
     .sponser {
         margin-top: 70px;
     }
@@ -612,7 +630,10 @@ footert{
     }
     .footer-form {
         padding-top: 0;
+        padding-right: 0px;
         width: 85%;
         text-align: center;
     }
-}
+    
+    /* .features , .features-details , .ten_year , */
+} 
